@@ -3,8 +3,11 @@ import Playgrounds
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Welcome to SwiftData")
+            Text("Hello, world!")
+        }.padding()
+        
         
     }
 }
